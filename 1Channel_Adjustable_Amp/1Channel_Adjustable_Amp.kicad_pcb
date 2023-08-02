@@ -703,7 +703,7 @@
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b906ea15-59c8-45a0-a5b4-52dbf159e8d8)
     )
-    (fp_text value "debug_pin_3.3V_Out" (at 0 1.75) (layer "F.Fab")
+    (fp_text value "debug_pin_3.3V_Out" (at 1.27 1.778) (layer "F.Fab")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3578f51c-5d3a-412e-a9b8-b7590a87c378)
     )
