@@ -909,7 +909,7 @@
     (uuid f946635d-d112-470b-9cc6-753860221c39)
   )
 
-  (rectangle (start 239.268 50.546) (end 275.844 119.634)
+  (rectangle (start 233.68 44.704) (end 270.256 113.792)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 0e964aaa-e7d8-48d2-8059-e66e8502175b)
@@ -938,7 +938,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 19f5a8aa-a4c5-4412-ba87-76a8392a7029)
   )
-  (text "DEBUG PINS\n" (at 247.904 47.498 0)
+  (text "DEBUG PINS\n" (at 242.316 41.656 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9f234438-daea-47a3-8921-be3eae5887cc)
   )
@@ -947,10 +947,10 @@
     (uuid c32db609-89e9-464f-8539-f707dc1fe656)
   )
 
-  (global_label "Amp_Out" (shape input) (at 255.778 100.838 0) (fields_autoplaced)
+  (global_label "Amp_Out" (shape input) (at 250.19 94.996 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 2b71ee2d-5f29-48fa-9e66-da21bd5dd56d)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 266.8669 100.838 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 261.2789 94.996 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -968,17 +968,17 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "V_Div_Out" (shape input) (at 255.778 84.582 0) (fields_autoplaced)
+  (global_label "V_Div_Out" (shape input) (at 250.19 78.74 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7f574c94-c8b0-4b7e-890c-3fba87e47739)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 267.8346 84.582 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 262.2466 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "3.3V_Out" (shape input) (at 257.302 67.818 0) (fields_autoplaced)
+  (global_label "3.3V_Out" (shape input) (at 251.714 61.976 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a6d7b584-5b3c-4a8f-bfd2-2f68150d0215)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 268.5724 67.818 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 262.9844 61.976 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -1014,7 +1014,7 @@
     (pin "4" (uuid 222a4b9d-706b-46ec-9d41-6d65a8072fa2))
     (pin "8" (uuid a486007d-4bf2-4541-89d8-335c30e9699a))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "U1") (unit 1)
         )
@@ -1039,7 +1039,7 @@
     )
     (pin "1" (uuid f1fd1e9a-4a60-49c4-96cb-353cef9e419c))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR08") (unit 1)
         )
@@ -1047,24 +1047,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 257.048 108.712 90) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 251.46 102.87 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20efc7dd-d576-4d6b-840b-708440a77152)
-    (property "Reference" "#PWR04" (at 263.398 108.712 0)
+    (property "Reference" "#PWR04" (at 257.81 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 261.366 108.712 90)
+    (property "Value" "GND" (at 255.778 102.87 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 257.048 108.712 0)
+    (property "Footprint" "" (at 251.46 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 257.048 108.712 0)
+    (property "Datasheet" "" (at 251.46 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fbeb18f0-e94e-4077-93ae-2cdf13888442))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR04") (unit 1)
         )
@@ -1072,24 +1072,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 252.222 67.818 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 246.634 61.976 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 243002b0-e7c6-4324-9585-6aa13ed1871c)
-    (property "Reference" "J8" (at 252.857 62.992 0)
+    (property "Reference" "J8" (at 247.269 57.15 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "debug_pin_3.3V_Out" (at 252.222 65.278 0)
+    (property "Value" "debug_pin_3.3V_Out" (at 246.634 59.436 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 252.222 67.818 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 246.634 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 252.222 67.818 0)
+    (property "Datasheet" "~" (at 246.634 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6f027f5d-e6c0-4649-b73f-57c822216b84))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J8") (unit 1)
         )
@@ -1097,24 +1097,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 255.778 92.71 90) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 250.19 86.868 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b2f3c82-0746-4bf8-8b0b-3e141325e43b)
-    (property "Reference" "#PWR01" (at 262.128 92.71 0)
+    (property "Reference" "#PWR01" (at 256.54 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 259.588 92.71 90)
+    (property "Value" "GND" (at 254 86.868 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 255.778 92.71 0)
+    (property "Footprint" "" (at 250.19 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 255.778 92.71 0)
+    (property "Datasheet" "" (at 250.19 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09f8e1d2-0966-433c-a1ed-ac2614beca50))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR01") (unit 1)
         )
@@ -1122,24 +1122,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 252.222 75.946 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 246.634 70.104 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3131ddcc-6546-4319-bd85-277443bb8240)
-    (property "Reference" "J9" (at 252.857 71.12 0)
+    (property "Reference" "J9" (at 247.269 65.278 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "debug_pin_GND" (at 252.857 73.66 0)
+    (property "Value" "debug_pin_GND" (at 247.269 67.818 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 252.222 75.946 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 246.634 70.104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 252.222 75.946 0)
+    (property "Datasheet" "~" (at 246.634 70.104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 46ad594f-4437-4472-a8bd-7d3a61c094c6))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J9") (unit 1)
         )
@@ -1164,7 +1164,7 @@
     )
     (pin "1" (uuid 4ef50af2-2622-47ee-8291-4a54d1654e39))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR015") (unit 1)
         )
@@ -1189,7 +1189,7 @@
     )
     (pin "1" (uuid cd3ea045-a0d3-4ef8-b9d0-5349c192e84d))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR010") (unit 1)
         )
@@ -1214,7 +1214,7 @@
     )
     (pin "1" (uuid 8c41a09a-1ea2-4fb9-b6a3-a4e47fba65fd))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR07") (unit 1)
         )
@@ -1239,7 +1239,7 @@
     )
     (pin "1" (uuid 50c49204-fff5-4a16-a1f9-3d2c0391ffb8))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR03") (unit 1)
         )
@@ -1247,24 +1247,24 @@
     )
   )
 
-  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 257.302 75.946 90) (unit 1)
+  (symbol (lib_id "PCM_4ms_Power-symbol:GND") (at 251.714 70.104 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ee580bb-319a-46cc-8a9c-580ed4604ab7)
-    (property "Reference" "#PWR020" (at 263.652 75.946 0)
+    (property "Reference" "#PWR020" (at 258.064 70.104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 261.112 75.946 90)
+    (property "Value" "GND" (at 255.524 70.104 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (at 257.302 75.946 0)
+    (property "Footprint" "" (at 251.714 70.104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 257.302 75.946 0)
+    (property "Datasheet" "" (at 251.714 70.104 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d6a15fdb-613f-4b56-b170-d1e60b81a58f))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR020") (unit 1)
         )
@@ -1289,7 +1289,7 @@
     )
     (pin "1" (uuid 58ae2657-f46f-4414-b58f-1de104c1459c))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR013") (unit 1)
         )
@@ -1316,7 +1316,7 @@
     (pin "2" (uuid 39eaac0b-998b-4118-869c-2d4b31c4e0e3))
     (pin "3" (uuid 67ad634d-f485-40b2-9e41-67b795d31995))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "RV1") (unit 1)
         )
@@ -1341,7 +1341,7 @@
     )
     (pin "1" (uuid c88cfe80-7d16-4518-a85f-e361b1f1b92a))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR011") (unit 1)
         )
@@ -1366,7 +1366,7 @@
     )
     (pin "1" (uuid 58f10e31-aff0-407e-a90b-4c76a83b56db))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR018") (unit 1)
         )
@@ -1374,24 +1374,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 250.698 92.71 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 245.11 86.868 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 80331fac-f26a-440f-81a8-6fe08952c457)
-    (property "Reference" "J5" (at 251.333 87.884 0)
+    (property "Reference" "J5" (at 245.745 82.042 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "debug_pin_GND" (at 251.333 90.424 0)
+    (property "Value" "debug_pin_GND" (at 245.745 84.582 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 250.698 92.71 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 245.11 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.698 92.71 0)
+    (property "Datasheet" "~" (at 245.11 86.868 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid af5966d5-e229-4ec2-a83f-765ee8ea878f))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J5") (unit 1)
         )
@@ -1416,7 +1416,7 @@
     )
     (pin "1" (uuid db0a1229-2f85-4672-8f5e-0fbf1bdf6f9a))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR014") (unit 1)
         )
@@ -1441,7 +1441,7 @@
     )
     (pin "1" (uuid fe3fadd5-670b-46fb-8a30-7cf8134fa9ae))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR017") (unit 1)
         )
@@ -1449,24 +1449,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 250.698 84.582 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 245.11 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8ca403c8-af16-410d-b85b-3112ec5d8247)
-    (property "Reference" "J4" (at 251.333 79.756 0)
+    (property "Reference" "J4" (at 245.745 73.914 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "debug_pin_V_DIV_Out" (at 250.698 82.042 0)
+    (property "Value" "debug_pin_V_DIV_Out" (at 245.11 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 250.698 84.582 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 245.11 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.698 84.582 0)
+    (property "Datasheet" "~" (at 245.11 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a3cc512e-e42e-4222-88d0-830047ae861a))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J4") (unit 1)
         )
@@ -1498,7 +1498,7 @@
     (pin "4" (uuid 00dd21c8-b321-4d2e-bdc3-8e892c11ec1a))
     (pin "8" (uuid 1b8d0f00-5dbe-4812-be8c-f6201599e98e))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "U1") (unit 2)
         )
@@ -1523,7 +1523,7 @@
     )
     (pin "1" (uuid c5b6c785-e21d-49aa-bdc7-cbfd93d5720a))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR09") (unit 1)
         )
@@ -1531,24 +1531,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 250.698 100.838 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 245.11 94.996 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e82d0bb-b590-426a-b804-de573809c625)
-    (property "Reference" "J6" (at 251.333 96.266 0)
+    (property "Reference" "J6" (at 245.745 90.424 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "Debug_pin_Amp_Out" (at 251.333 98.806 0)
+    (property "Value" "Debug_pin_Amp_Out" (at 245.745 92.964 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 250.698 100.838 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm" (at 245.11 94.996 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 250.698 100.838 0)
+    (property "Datasheet" "~" (at 245.11 94.996 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8739f367-c1d3-4d90-b606-c12d8892b7f1))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J6") (unit 1)
         )
@@ -1575,7 +1575,7 @@
     (pin "T" (uuid 95266dda-0d28-40d3-aa67-59f80e6265e2))
     (pin "TN" (uuid 067128d9-502f-4927-8849-cd584acfcc71))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J3") (unit 1)
         )
@@ -1601,7 +1601,7 @@
     (pin "1" (uuid 92fa517c-76a6-4643-a311-fc97c364fec0))
     (pin "2" (uuid 06f10dae-8757-4af3-be2e-90a500591768))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "C1") (unit 1)
         )
@@ -1626,7 +1626,7 @@
     )
     (pin "1" (uuid 13036eba-0cd6-4521-84d7-dcca8b5fdf6f))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR05") (unit 1)
         )
@@ -1651,7 +1651,7 @@
     )
     (pin "1" (uuid 6a1286f2-9f5d-4cf1-9b4f-6481588984e5))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR02") (unit 1)
         )
@@ -1678,7 +1678,7 @@
     (pin "2" (uuid 351fb7bd-8f52-44a5-b2c6-32bed7e9d376))
     (pin "3" (uuid b4f64222-365d-4abc-a472-f10cfe83355e))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "RV2") (unit 1)
         )
@@ -1705,7 +1705,7 @@
     (pin "T" (uuid fadabef6-48a6-4b5b-92fc-7b0ef3d9ea52))
     (pin "TN" (uuid 56326d22-7e7f-40ae-a0f1-82041b611f0e))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J2") (unit 1)
         )
@@ -1730,7 +1730,7 @@
     )
     (pin "1" (uuid 1ad1b93f-8553-4e14-891d-14c1d969aea5))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR019") (unit 1)
         )
@@ -1755,7 +1755,7 @@
     )
     (pin "1" (uuid 4f7564da-3776-41bf-a5ca-796f8b0038fa))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR012") (unit 1)
         )
@@ -1780,7 +1780,7 @@
     )
     (pin "1" (uuid f163e105-14c9-4743-812e-beb1a8168803))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR016") (unit 1)
         )
@@ -1812,7 +1812,7 @@
     (pin "4" (uuid 92520e90-6b8e-471f-a2d5-da744b35cf44))
     (pin "8" (uuid ef8fecd8-1290-49c2-bce2-a2f5269dfd4e))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "U1") (unit 3)
         )
@@ -1820,24 +1820,24 @@
     )
   )
 
-  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 251.968 108.712 0) (unit 1)
+  (symbol (lib_id "Connector:Conn_01x01_Pin") (at 246.38 102.87 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e85d8262-fa6e-4094-8b26-7d0b920edddb)
-    (property "Reference" "J7" (at 252.603 103.8521 0)
+    (property "Reference" "J7" (at 247.015 98.0101 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "debug_pin_GND" (at 252.2088 106.3921 0)
+    (property "Value" "debug_pin_GND" (at 246.6208 100.5501 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 251.968 108.712 0)
+    (property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm" (at 246.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 251.968 108.712 0)
+    (property "Datasheet" "~" (at 246.38 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a0ecad38-8665-4f77-b051-6d0de61760bf))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J7") (unit 1)
         )
@@ -1863,7 +1863,7 @@
     (pin "1" (uuid bc899243-a6d3-4010-849f-45a1394039b0))
     (pin "2" (uuid 4e55227c-6bd0-4cb7-abe4-1e428d4ba31a))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "R6") (unit 1)
         )
@@ -1888,7 +1888,7 @@
     )
     (pin "1" (uuid ad963124-ef23-45ee-b004-a70361db0326))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "#PWR06") (unit 1)
         )
@@ -1914,7 +1914,7 @@
     (pin "1" (uuid 50407afd-5558-4c05-872f-38fba1b9b59e))
     (pin "2" (uuid 993569f9-70cc-4769-9678-a38471d07b3f))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "C2") (unit 1)
         )
@@ -1963,7 +1963,7 @@
     (pin "8" (uuid c43c84f9-7736-4e06-9f84-f8403e1a2f0b))
     (pin "9" (uuid a0532615-6407-4b5f-980c-66ebe73407aa))
     (instances
-      (project "AMPAMPAMP"
+      (project "1Channel_Adjustable_Amp"
         (path "/a380f9e5-d764-4f65-be20-a5eb683631a4"
           (reference "J1") (unit 1)
         )
